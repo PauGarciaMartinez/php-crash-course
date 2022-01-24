@@ -98,3 +98,7 @@ ksort($person);
 asort($person);
 
 // Two dimensional arrays
+$todos = [
+  ['title' => 'Todo title 1', 'completed' => true],
+  ['title' => 'Todo title 2', 'completed' => true]
+];
