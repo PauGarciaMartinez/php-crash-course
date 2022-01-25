@@ -9,8 +9,14 @@ if ($age === 20) {
 }
 
 // Without circle braces
+if ($age === 20) echo '1';
 
 // Sample if-else
+if ($age > 20) {
+  echo '1';
+} else {
+  echo '2';
+}
 
 // Difference between == and ===
 
