@@ -4,6 +4,9 @@ $age = 20;
 $salary = 300000;
 
 // Sample if
+if ($age === 20) {
+  echo '1';
+}
 
 // Without circle braces
 
