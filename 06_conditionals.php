@@ -33,11 +33,32 @@ if ($age > 20 && $salary === 300000) {
 }
 
 // if OR
+if ($age > 20 || $salary === 300000) {
+  echo 'Good money man';
+}
 
 // Ternary if
+echo $age < 22 ? 'Young' : 'Old';
 
 // Short ternary
+$myAge = $age ?: '18';
 
 // Null coalescing operator
+isset($name) ? $name : 'John';
+$name ?? 'John';
 
 // switch
+$userRole = 'admin';
+switch ($userRole) {
+  case 'admin':
+    echo 'admin';
+    break;
+  case 'editor':
+    echo 'editor';
+    break;
+  case 'user';
+    echo 'user';
+    break;
+  default:
+    echo 'Invalid role';
+}
