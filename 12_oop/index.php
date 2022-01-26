@@ -1,9 +1,10 @@
 <?php
 
-// What is class and instance
+require_once "person.php";
+require_once "student.php";
 
-// Create Person class in Person.php
+$me = new Person('Pau', 'Garcia');
+$me->setAge(24);
+echo Person::$counter;
 
-// Create instance of Person
-
-// Using setter and getter
+$you = new Student('Lucía', 'Vélez', 344532);
