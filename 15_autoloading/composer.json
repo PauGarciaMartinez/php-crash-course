@@ -1,0 +1,17 @@
+{
+    "name": "paugarciamartinez/15_autoloading",
+    "authors": [
+        {
+            "name": "Pau Garcia Martínez",
+            "email": "etpau@hotmail.es"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "app\\": "./app"
+      }
+    }
+}
