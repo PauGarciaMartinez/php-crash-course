@@ -1,3 +1,7 @@
 body {
   padding: 2rem;
 }
+
+.thumb-img {
+  width: 50px;
+}
