@@ -1,0 +1,15 @@
+{
+    "name": "paugarciamartinez/03_good",
+    "authors": [
+        {
+            "name": "Pau Garcia Martínez",
+            "email": "etpau@hotmail.es"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "app\\": "./"
+      }
+    }
+}
