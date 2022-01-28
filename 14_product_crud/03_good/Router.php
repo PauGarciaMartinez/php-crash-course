@@ -42,6 +42,10 @@ class Router {
 
   public function renderView($view, $params = [])
   {
+    foreach ($params as $key => $value) {
+      $$key = $value;
+    }
+
     ob_start();
     include_once __DIR__."/views/$view.php";
     $content = ob_get_clean();
