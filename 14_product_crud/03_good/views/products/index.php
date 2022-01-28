@@ -1,7 +1,7 @@
 <h1>Products List</h1>
 
 <p>
-  <button href="create.php" class="btn btn-success">Create Product</button>
+  <button href="/products/create.php" class="btn btn-success">Create Product</button>
 </p>
 
 <form action="" method="GET">
