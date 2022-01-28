@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+
+$_SESSION['page-counter'] = $_SESSION['page-counter'] ?? 0;
+$_SESSION['page-counter']++;
+
+if ($_SESSION['page-counter'] === 10) {
+  echo 'Thanks for visiting us 10 times';
+  session_unset();
+  session_destroy();
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
